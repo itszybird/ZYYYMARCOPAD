@@ -1,0 +1,246 @@
+INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
+INFO: kbplacer_plugin_action.py:71: Python version: '3.13.11 (main, Nov 10 2011, 15:00:00) [GCC 15.2.0]'
+INFO: kbplacer_plugin_action.py:72: KiCad version: 9.0.6 with 4.2.4 gtk3 (phoenix) wxWidgets 3.2.9
+INFO: kbplacer_dialog.py:631: Language: en
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "/home/zybird/Downloads/marco-pad.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 180.0, "side": "Back"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Custom", "position": {"x": -6.8, "y": -4.0, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": ""}], "route_rows_and_columns": true, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+DEBUG: key_placer.py:424: Set key 1U distance: 19050000/19050000
+WARNING: key_placer.py:134: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
+DEBUG: key_placer.py:141: Switches by nets: {}
+DEBUG: key_placer.py:145: Diodes by switch: {'SW21': ['D21'], 'SW20': ['D20'], 'SW19': ['D19'], 'SW18': ['D18'], 'SW17': ['D17'], 'SW16': ['D16'], 'SW15': ['D15'], 'SW14': ['D14'], 'SW13': ['D13'], 'SW12': ['D12'], 'SW11': ['D11'], 'SW10': ['D10'], 'SW9': ['D9'], 'SW8': ['D8'], 'SW7': ['D7'], 'SW6': ['D6'], 'SW5': ['D5'], 'SW4': ['D4'], 'SW3': ['D3'], 'SW2': ['D2'], 'SW1': ['D1']}
+INFO: kle_serial.py:931: User layout: [{'name': 'Marco pad', 'author': 'Zybird'}, [{'a': 7}, 'KNOB'], [{'y': 0.25}, '', '', '', '', '', ''], ['', '', '', '', '', ''], ['', '', '', '', '', ''], [{'x': 0.75, 'w': 1.5}, '', {'x': 1.5, 'w': 1.5}, '']]
+DEBUG: key_placer.py:724: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:990: Layout with: x_ortholinear_keys=19, y_ortholinear_keys=1, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1015: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>]
+DEBUG: board_modifier.py:94: Setting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting SW2 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:94: Setting SW3 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:94: Setting SW4 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:94: Setting SW5 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:94: Setting SW6 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:94: Setting SW7 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:94: Setting SW8 footprint position: (38100000, 80962500)
+DEBUG: board_modifier.py:94: Setting SW9 footprint position: (57150000, 80962500)
+DEBUG: board_modifier.py:94: Setting SW10 footprint position: (76200000, 80962500)
+DEBUG: board_modifier.py:94: Setting SW11 footprint position: (95250000, 80962500)
+DEBUG: board_modifier.py:94: Setting SW12 footprint position: (114300000, 80962500)
+DEBUG: board_modifier.py:94: Setting SW13 footprint position: (133350000, 80962500)
+DEBUG: board_modifier.py:94: Setting SW14 footprint position: (38100000, 100012500)
+DEBUG: board_modifier.py:94: Setting SW15 footprint position: (57150000, 100012500)
+DEBUG: board_modifier.py:94: Setting SW16 footprint position: (76200000, 100012500)
+DEBUG: board_modifier.py:94: Setting SW17 footprint position: (95250000, 100012500)
+DEBUG: board_modifier.py:94: Setting SW18 footprint position: (114300000, 100012500)
+DEBUG: board_modifier.py:94: Setting SW19 footprint position: (133350000, 100012500)
+DEBUG: board_modifier.py:94: Setting SW20 footprint position: (57150000, 119062500)
+DEBUG: board_modifier.py:94: Setting SW21 footprint position: (114300000, 119062500)
+INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.CUSTOM: 'Custom'>, position=ElementPosition(x=-6.8, y=-4.0, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:94: Setting D1 footprint position: (44899999, 42100000)
+DEBUG: board_modifier.py:107: Getting D1 footprint position: (44899999, 42100000)
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:94: Setting D2 footprint position: (44899999, 65912500)
+DEBUG: board_modifier.py:107: Getting D2 footprint position: (44899999, 65912500)
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:94: Setting D3 footprint position: (63949999, 65912500)
+DEBUG: board_modifier.py:107: Getting D3 footprint position: (63949999, 65912500)
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:94: Setting D4 footprint position: (82999999, 65912500)
+DEBUG: board_modifier.py:107: Getting D4 footprint position: (82999999, 65912500)
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:94: Setting D5 footprint position: (102049999, 65912500)
+DEBUG: board_modifier.py:107: Getting D5 footprint position: (102049999, 65912500)
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:94: Setting D6 footprint position: (121099999, 65912500)
+DEBUG: board_modifier.py:107: Getting D6 footprint position: (121099999, 65912500)
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:94: Setting D7 footprint position: (140149999, 65912500)
+DEBUG: board_modifier.py:107: Getting D7 footprint position: (140149999, 65912500)
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (38100000, 80962500)
+DEBUG: board_modifier.py:94: Setting D8 footprint position: (44899999, 84962500)
+DEBUG: board_modifier.py:107: Getting D8 footprint position: (44899999, 84962500)
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (57150000, 80962500)
+DEBUG: board_modifier.py:94: Setting D9 footprint position: (63949999, 84962500)
+DEBUG: board_modifier.py:107: Getting D9 footprint position: (63949999, 84962500)
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (76200000, 80962500)
+DEBUG: board_modifier.py:94: Setting D10 footprint position: (82999999, 84962500)
+DEBUG: board_modifier.py:107: Getting D10 footprint position: (82999999, 84962500)
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (95250000, 80962500)
+DEBUG: board_modifier.py:94: Setting D11 footprint position: (102049999, 84962500)
+DEBUG: board_modifier.py:107: Getting D11 footprint position: (102049999, 84962500)
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (114300000, 80962500)
+DEBUG: board_modifier.py:94: Setting D12 footprint position: (121099999, 84962500)
+DEBUG: board_modifier.py:107: Getting D12 footprint position: (121099999, 84962500)
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (133350000, 80962500)
+DEBUG: board_modifier.py:94: Setting D13 footprint position: (140149999, 84962500)
+DEBUG: board_modifier.py:107: Getting D13 footprint position: (140149999, 84962500)
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (38100000, 100012500)
+DEBUG: board_modifier.py:94: Setting D14 footprint position: (44899999, 104012500)
+DEBUG: board_modifier.py:107: Getting D14 footprint position: (44899999, 104012500)
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (57150000, 100012500)
+DEBUG: board_modifier.py:94: Setting D15 footprint position: (63949999, 104012500)
+DEBUG: board_modifier.py:107: Getting D15 footprint position: (63949999, 104012500)
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (76200000, 100012500)
+DEBUG: board_modifier.py:94: Setting D16 footprint position: (82999999, 104012500)
+DEBUG: board_modifier.py:107: Getting D16 footprint position: (82999999, 104012500)
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (95250000, 100012500)
+DEBUG: board_modifier.py:94: Setting D17 footprint position: (102049999, 104012500)
+DEBUG: board_modifier.py:107: Getting D17 footprint position: (102049999, 104012500)
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (114300000, 100012500)
+DEBUG: board_modifier.py:94: Setting D18 footprint position: (121099999, 104012500)
+DEBUG: board_modifier.py:107: Getting D18 footprint position: (121099999, 104012500)
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (133350000, 100012500)
+DEBUG: board_modifier.py:94: Setting D19 footprint position: (140149999, 104012500)
+DEBUG: board_modifier.py:107: Getting D19 footprint position: (140149999, 104012500)
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (57150000, 119062500)
+DEBUG: board_modifier.py:94: Setting D20 footprint position: (63949999, 123062500)
+DEBUG: board_modifier.py:107: Getting D20 footprint position: (63949999, 123062500)
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (114300000, 119062500)
+DEBUG: board_modifier.py:94: Setting D21 footprint position: (121099999, 123062500)
+DEBUG: board_modifier.py:107: Getting D21 footprint position: (121099999, 123062500)
+DEBUG: key_placer.py:826: Optimizing orientation of SW1 diodes
+DEBUG: board_modifier.py:107: Getting D1 footprint position: (44899999, 42100000)
+DEBUG: key_placer.py:839: Rotated D1 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW2 diodes
+DEBUG: board_modifier.py:107: Getting D2 footprint position: (44899999, 65912500)
+DEBUG: key_placer.py:839: Rotated D2 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW3 diodes
+DEBUG: board_modifier.py:107: Getting D3 footprint position: (63949999, 65912500)
+DEBUG: key_placer.py:839: Rotated D3 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW4 diodes
+DEBUG: board_modifier.py:107: Getting D4 footprint position: (82999999, 65912500)
+DEBUG: key_placer.py:839: Rotated D4 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW5 diodes
+DEBUG: board_modifier.py:107: Getting D5 footprint position: (102049999, 65912500)
+DEBUG: key_placer.py:839: Rotated D5 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW6 diodes
+DEBUG: board_modifier.py:107: Getting D6 footprint position: (121099999, 65912500)
+DEBUG: key_placer.py:839: Rotated D6 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW7 diodes
+DEBUG: board_modifier.py:107: Getting D7 footprint position: (140149999, 65912500)
+DEBUG: key_placer.py:839: Rotated D7 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW8 diodes
+DEBUG: board_modifier.py:107: Getting D8 footprint position: (44899999, 84962500)
+DEBUG: key_placer.py:839: Rotated D8 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW9 diodes
+DEBUG: board_modifier.py:107: Getting D9 footprint position: (63949999, 84962500)
+DEBUG: key_placer.py:839: Rotated D9 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW10 diodes
+DEBUG: board_modifier.py:107: Getting D10 footprint position: (82999999, 84962500)
+DEBUG: key_placer.py:839: Rotated D10 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW11 diodes
+DEBUG: board_modifier.py:107: Getting D11 footprint position: (102049999, 84962500)
+DEBUG: key_placer.py:839: Rotated D11 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW12 diodes
+DEBUG: board_modifier.py:107: Getting D12 footprint position: (121099999, 84962500)
+DEBUG: key_placer.py:839: Rotated D12 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW13 diodes
+DEBUG: board_modifier.py:107: Getting D13 footprint position: (140149999, 84962500)
+DEBUG: key_placer.py:839: Rotated D13 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW14 diodes
+DEBUG: board_modifier.py:107: Getting D14 footprint position: (44899999, 104012500)
+DEBUG: key_placer.py:839: Rotated D14 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW15 diodes
+DEBUG: board_modifier.py:107: Getting D15 footprint position: (63949999, 104012500)
+DEBUG: key_placer.py:839: Rotated D15 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW16 diodes
+DEBUG: board_modifier.py:107: Getting D16 footprint position: (82999999, 104012500)
+DEBUG: key_placer.py:839: Rotated D16 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW17 diodes
+DEBUG: board_modifier.py:107: Getting D17 footprint position: (102049999, 104012500)
+DEBUG: key_placer.py:839: Rotated D17 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW18 diodes
+DEBUG: board_modifier.py:107: Getting D18 footprint position: (121099999, 104012500)
+DEBUG: key_placer.py:839: Rotated D18 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW19 diodes
+DEBUG: board_modifier.py:107: Getting D19 footprint position: (140149999, 104012500)
+DEBUG: key_placer.py:839: Rotated D19 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW20 diodes
+DEBUG: board_modifier.py:107: Getting D20 footprint position: (63949999, 123062500)
+DEBUG: key_placer.py:839: Rotated D20 to minimize distance
+DEBUG: key_placer.py:826: Optimizing orientation of SW21 diodes
+DEBUG: board_modifier.py:107: Getting D21 footprint position: (121099999, 123062500)
+DEBUG: key_placer.py:839: Rotated D21 to minimize distance
+DEBUG: key_placer.py:854: Placing additional elements for SW3
+DEBUG: board_modifier.py:107: Getting SW3 footprint position: (57150000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW2
+DEBUG: board_modifier.py:107: Getting SW2 footprint position: (38100000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW21
+DEBUG: board_modifier.py:107: Getting SW21 footprint position: (114300000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW20
+DEBUG: board_modifier.py:107: Getting SW20 footprint position: (57150000, 119062500)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW19
+DEBUG: board_modifier.py:107: Getting SW19 footprint position: (133350000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW18
+DEBUG: board_modifier.py:107: Getting SW18 footprint position: (114300000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW17
+DEBUG: board_modifier.py:107: Getting SW17 footprint position: (95250000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW16
+DEBUG: board_modifier.py:107: Getting SW16 footprint position: (76200000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW15
+DEBUG: board_modifier.py:107: Getting SW15 footprint position: (57150000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW14
+DEBUG: board_modifier.py:107: Getting SW14 footprint position: (38100000, 100012500)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW13
+DEBUG: board_modifier.py:107: Getting SW13 footprint position: (133350000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW12
+DEBUG: board_modifier.py:107: Getting SW12 footprint position: (114300000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW11
+DEBUG: board_modifier.py:107: Getting SW11 footprint position: (95250000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW10
+DEBUG: board_modifier.py:107: Getting SW10 footprint position: (76200000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW9
+DEBUG: board_modifier.py:107: Getting SW9 footprint position: (57150000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW8
+DEBUG: board_modifier.py:107: Getting SW8 footprint position: (38100000, 80962500)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW7
+DEBUG: board_modifier.py:107: Getting SW7 footprint position: (133350000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW6
+DEBUG: board_modifier.py:107: Getting SW6 footprint position: (114300000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW5
+DEBUG: board_modifier.py:107: Getting SW5 footprint position: (95250000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW4
+DEBUG: board_modifier.py:107: Getting SW4 footprint position: (76200000, 61912500)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in /home/zybird/Documents/ZYYYPAD/ZYYYMARCOPAD/zyypadmarco.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+INFO: key_placer.py:520: Removing dangling tracks
